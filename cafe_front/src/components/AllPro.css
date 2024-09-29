@@ -1,0 +1,32 @@
+.button-container {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 20px; /* Space between buttons */
+    margin-top: 20px;
+    margin-bottom: 40px; /* Add space between buttons and footer */
+}
+
+.back-button, .order-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center; /* Center text inside the button */
+}
+
+.back-button {
+    background-color: #a509d1; /* Purple */
+}
+
+.back-button:hover {
+    background-color: #e96be3; /* Lighter purple */
+}
+
+.order-button {
+    background-color: #64c7e8; /* Light blue */
+}
+
+.order-button:hover {
+    background-color: #046a84;
+}

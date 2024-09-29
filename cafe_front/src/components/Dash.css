@@ -1,0 +1,26 @@
+/* Dash.css */
+
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    background-image: url('../assets/products/dash.jpg'); /* Update with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sidebar {
+    background-color: rgba(52, 58, 64, 0.9); /* Dark background for sidebar with transparency */
+    color: white;
+    padding: 20px;
+    width: 250px;
+    height: 100%;
+}
+
+.main-content {
+    margin-left: 250px; /* Offset by sidebar width */
+    padding: 20px;
+    height: 100%;
+    color: #ADD8E8;
+}
+
